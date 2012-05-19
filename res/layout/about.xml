@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/white"
+	android:orientation="vertical" >
+	<ImageView
+		android:id="@+id/ImageView_Logo"
+		android:contentDescription="@string/idigi_logo_description"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/idigi" >
+	</ImageView>
+	<RelativeLayout
+		android:layout_below="@+id/ImageView_Logo"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_margin="10dp"
+		android:background="@drawable/tablelayout_shape" >
+	    <TableLayout 
+			android:id="@+id/TableLayout_Devices"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@color/gray"
+			android:layout_margin="10dp">
+			<TableRow
+				android:layout_marginTop="10dp">
+				<ImageView
+					android:id="@+id/ImageView_Logo2"
+					android:contentDescription="@string/idigi_logo_description"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:src="@drawable/door" >
+				</ImageView>
+			</TableRow>
+			<TableRow
+				android:layout_marginTop="10dp">
+				<TextView
+					android:id="@+id/VersionInfo"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:layout_marginTop="15dp"
+					android:text="@string/version_info"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:textStyle="bold" >
+				</TextView>
+			</TableRow>
+			<TableRow 
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginTop="30dp">
+				<TextView
+					android:id="@+id/TextView_AboutText"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:text="@string/about"
+					android:textColor="@color/black"
+					android:textSize="16sp" >
+				</TextView>
+			</TableRow>
+		</TableLayout>
+	</RelativeLayout>
+</RelativeLayout>

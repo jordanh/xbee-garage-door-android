@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/door_menu_logout"
+		android:showAsAction="ifRoom"
+		android:icon="@drawable/ic_menu_logout"
+		android:title="Logout" />
+	<item android:id="@+id/door_menu_about"
+		android:showAsAction="ifRoom"
+		android:icon="@drawable/ic_menu_about"
+		android:title="About" />
+</menu>

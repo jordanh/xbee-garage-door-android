@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 
+    This file contains all the colors that are used in the views
+-->
+<resources>
+    <color name="white">#FFFFFF</color>
+        <color name="black">#000000</color>
+        <color name="green">#008b58</color>
+        <color name="red1">#E00000</color>
+        <color name="red2">#FF0000</color>
+        <color name="red3">#B22222</color>
+        <color name="red4">#8B0000</color>
+        <color name="grey">#CFCFCF</color>
+        <color name="gray">#CFCFCF</color>
+        <color name="orange">#FABC24</color>
+        <color name="facebookBlue">#FF6D84B4</color>
+        <color name="toolbar0">#FF009d57</color>
+        <color name="toolbar48">#FF006f5a</color>
+        <color name="transGrey">#AA888888</color>
+        <color name="lightgray">#ffcccccc</color>
+        <color name="mediumgray">#FF909090</color>
+        <color name="thermostatScheduleAwayColor">#ffefc2</color>
+        <color name="thermostatScheduleActiveColor">#bfdfaf</color>
+        <color name="thermostatScheduleSleepColor">#b9c8e3</color>
+</resources>

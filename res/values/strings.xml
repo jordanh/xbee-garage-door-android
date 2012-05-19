@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iDigi Garage Door Application</string>
+    <string name="username">User Name</string>
+    <string name="username_hint">User Name</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Password</string>
+    <string name="remember_login">remember login</string>
+    <string name="login">Login</string>
+    <string name="device">Select a Device</string>
+    <string name="xbee">Select an XBee</string>
+    <string name="refresh_devices">Refresh Devices</string>
+    <string name="refresh_xbees">Refresh XBees</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="logging_in">Logging in, please wait...</string>
+    <string name="xbees">Retrieving XBees attached to device...</string>
+    <string name="no_list_data">No List Data Present.</string>
+    <string name="invalid_username">Invalid Username</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="invalid_username_password">Invalid Username or Password</string>
+    <string name="idigi_logo_description">iDigi Logo</string>
+    <string name="garage_door_image_description">Garage Door image</string>
+    <string name="about">iDigi Garage Door Opener\nis a demo created by Scott Kilau</string>
+	<string name="version_info">Version Info</string>
+</resources>

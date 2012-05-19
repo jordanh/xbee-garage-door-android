@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/white"
+	android:orientation="vertical" >
+	<ImageView
+		android:id="@+id/ImageView_Logo"
+		android:contentDescription="@string/idigi_logo_description"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/idigi" >
+	</ImageView>
+	<RelativeLayout
+		android:layout_below="@+id/ImageView_Logo"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_margin="10dp"
+		android:background="@drawable/tablelayout_shape" >
+
+		<TableLayout
+		    android:id="@+id/LoginLayout"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_above="@+id/Button_Login"
+		    android:layout_centerInParent="true"
+		    android:layout_margin="10dp"
+		    android:background="@color/gray" >
+
+			<TableRow
+				android:layout_marginTop="30dp">
+				<TextView
+					android:id="@+id/TextView_Username"
+					android:padding="5dp"
+					android:text="@string/username"
+					android:textColor="@color/black"
+					android:textStyle="bold" >
+				</TextView>
+			</TableRow>
+			<TableRow 
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginBottom="15dp" >
+				<EditText 
+					android:id="@+id/EditText_Username" 
+					android:layout_column="0"
+					android:layout_span="2"
+					android:padding="10dp"
+					android:singleLine="true"
+					android:hint="@string/username_hint" >
+				</EditText>
+			</TableRow>
+			<TableRow>
+				<TextView 
+					android:id="@+id/TextView_Password" 
+					android:padding="5dp"
+					android:text="@string/password"
+					android:textColor="@color/black"
+					android:textStyle="bold" >
+				</TextView>
+			</TableRow>
+			<TableRow 
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginBottom="15dp">
+				<EditText 
+					android:id="@+id/EditText_Password" 
+					android:layout_column="0"
+					android:layout_span="2"
+					android:padding="10sp"
+					android:singleLine="true"
+					android:hint="@string/password_hint"
+					android:inputType="text|textPassword" >
+				</EditText>
+			</TableRow>
+			<TableRow
+				android:layout_marginRight="5dp"
+				android:layout_marginBottom="25dp" >
+				<CheckBox
+					android:layout_width="wrap_content"
+					android:id="@+id/CheckBox_RememberLogin"
+					android:layout_column="1"
+					android:textColor="@color/black"
+					android:textStyle="bold"
+					android:text="@string/remember_login" >
+				</CheckBox>
+			</TableRow>
+		</TableLayout>
+			<Button
+			android:id="@+id/Button_Login"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:layout_width="120dp"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp"
+			android:text="@string/login" >
+		</Button>
+	</RelativeLayout>
+</RelativeLayout>

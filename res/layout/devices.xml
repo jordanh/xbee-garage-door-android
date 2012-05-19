@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/white"
+	android:orientation="vertical" >
+	<ImageView
+		android:id="@+id/ImageView_Logo"
+		android:contentDescription="@string/idigi_logo_description"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/idigi" >
+	</ImageView>
+	<RelativeLayout
+		android:layout_below="@+id/ImageView_Logo"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_margin="10dp"
+		android:background="@drawable/tablelayout_shape" >
+		<TableLayout 
+			android:id="@+id/TableLayout_Devices"
+			android:layout_above="@+id/Button_Device_Refresh"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@color/gray"
+			android:layout_margin="10dp">
+			<TableRow
+				android:layout_marginTop="30dp">
+				<TextView
+					android:id="@+id/TextView_Device"
+					android:padding="5dp"
+					android:text="@string/device"
+					android:textColor="@color/black"
+					android:textStyle="bold" >
+				</TextView>
+			</TableRow>
+			<TableRow 
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginBottom="15dp">
+				<ListView
+					android:id="@android:id/list"
+					android:layout_weight="1" 
+ 					android:background="@drawable/listview_shape"
+					android:divider="@color/mediumgray"
+					android:dividerHeight="1dp"
+					android:layout_marginBottom="50dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+				</ListView>
+				<TextView
+					android:id="@android:id/empty"
+					android:layout_width="wrap_content"
+					android:layout_height="0dip"
+					android:layout_weight="1.0"
+					android:text="@string/no_list_data" >
+				</TextView>
+			</TableRow>
+		</TableLayout>
+		<Button
+			android:id="@+id/Button_Device_Refresh"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:layout_width="120dp"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp"
+			android:text="@string/refresh_devices" >
+		</Button>	
+	</RelativeLayout>
+</RelativeLayout>

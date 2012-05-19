@@ -1,0 +1,17 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/door_anim"
+	android:visible="true"
+	android:oneshot="true">
+	<item android:drawable="@drawable/door01" android:duration="100" />
+	<item android:drawable="@drawable/door02" android:duration="100" />
+	<item android:drawable="@drawable/door03" android:duration="100" />
+	<item android:drawable="@drawable/door04" android:duration="100" />
+	<item android:drawable="@drawable/door05" android:duration="100" />
+	<item android:drawable="@drawable/door06" android:duration="100" />
+	<item android:drawable="@drawable/door07" android:duration="100" />
+	<item android:drawable="@drawable/door08" android:duration="100" />
+	<item android:drawable="@drawable/door09" android:duration="100" />
+	<item android:drawable="@drawable/door10" android:duration="100" />
+	<item android:drawable="@drawable/door11" android:duration="100" />
+	<item android:drawable="@drawable/door12" android:duration="100" />
+</animation-list>
